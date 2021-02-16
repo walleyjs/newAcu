@@ -32,8 +32,6 @@ class App extends React.Component <any, any>{
     super(props);
     this.state = { todo: ''};
   }
-
-
   handleChange = (data : any) => {
     this.setState({[data.target.todo]: data.target.value});
   }
